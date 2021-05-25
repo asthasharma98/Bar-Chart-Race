@@ -1,13 +1,24 @@
+
 # Bar-Chart-Race
 
-`Bar chart races` have been around for a while and they took social media by storm. It began with Matt Navarra’s tweet, which was viewed 10 million times. 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+
+Bar chart races have been around for a while and they took social media by storm. It began with Matt Navarra’s tweet, which was viewed 10 million times. 
 Bar chart race is a useful way to display time series in a bar chart format via animation and it helps you visualize the change in trends over time, these type of charts are very popular on social media as they provide a holistic data story/insight in a concise and easy to understand chart. 
 
 There are various tools to create this Animated Chart but I wanted to try this in `Python`. 
 
 ### Demo 
 
+#### Covid-19 Comfirmed Cases in India
+
 ![Covid-19-Cases-in-India](https://github.com/asthasharma98/Bar-Chart-Race/blob/main/Readme-Resources/covid-19_cases_in_india.gif)
+
+#### covid-19 Vaccination in India
+
+![Covid-19-Vaccination-in-India](https://github.com/asthasharma98/Bar-Chart-Race/blob/main/Readme-Resources/covid-19_vaccine_in_india.gif)
+
 
 
 ***How to create a bar chart race animation with bar-chart-race library in Python ?***
@@ -84,7 +95,7 @@ bcr.bar_chart_race(
 bcr.bar_chart_race(df=df, filename=None)
 ```
 
-Note : If you also want to try out this Animated bar chart race but don't want to code or want to try out using some different tools, you can try out with [Flourish Studio](https://flourish.studio/).
+*Note : If you also want to try out this Animated bar chart race but don't want to code or want to try out using some different tools, you can try out with [Flourish Studio](https://flourish.studio/).*
 
 
 
